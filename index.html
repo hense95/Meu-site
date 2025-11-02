@@ -19,19 +19,67 @@
     a { background-color: #ffffff; color: #4a00e0; padding: 12px 
       25px; border-radius: 30px; text-decoration: none; 
       font-weight: bold; transition: 0.3s;
+ <!DOCTYPE html> <html lang="pt-BR"> <head> <meta 
+  charset="UTF-8" /> <meta name="viewport" 
+  content="width=device-width, initial-scale=1.0" /> <title>Meu 
+  Site Moderno</title> <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; 
+      font-family: 'Poppins', sans-serif;
     }
-    a:hover { background-color: #8e2de2; color: #fff; 
-      box-shadow: 0 0 15px rgba(255,255,255,0.4);
+    body { background: linear-gradient(135deg, #1f1c2c, 
+      #928dab);
+      color: #fff; min-height: 100vh; display: flex; 
+      flex-direction: column;
     }
-    footer { position: absolute; bottom: 15px; font-size: 0.9em; 
-      opacity: 0.8;
+    header { background: rgba(0, 0, 0, 0.3); backdrop-filter: 
+      blur(10px); padding: 15px 30px; display: flex; 
+      justify-content: space-between; align-items: center; 
+      position: sticky; top: 0;
     }
-  </style> </head> <body> <h1>🚀 Meu Site no GitHub Pages</h1> 
-  <p>Bem-vindo! Este é meu primeiro site publicado direto do 
-  Termux.</p> <a href="https://github.com/hense95" 
-  target="_blank">Visitar meu GitHub</a> <footer>Feito com ❤️ por 
-  Alisson Hense</footer>
-</body>
+    header h1 { font-size: 1.5em; letter-spacing: 1px;
+    }
+    nav a { margin-left: 20px; text-decoration: none; color: 
+      #fff;
+      transition: 0.3s;
+    }
+    nav a:hover { color: #ffd369;
+    }
+    main { flex: 1; display: flex; flex-direction: column; 
+      justify-content: center; align-items: center; text-align: 
+      center; padding: 30px;
+    }
+    main h2 { font-size: 2.3em; margin-bottom: 15px;
+    }
+    main p { max-width: 600px; font-size: 1.1em; line-height: 
+      1.6; margin-bottom: 25px;
+    }
+    .btn { display: inline-block; padding: 12px 25px; 
+      background-color: #ffd369; color: #000; border-radius: 
+      25px; font-weight: bold; text-decoration: none; 
+      transition: 0.3s ease;
+    }
+    .btn:hover { background-color: #fff; transform: scale(1.05);
+    }
+    footer { background: rgba(0, 0, 0, 0.4); text-align: center; 
+      padding: 15px; font-size: 0.9em;
+    }
+    @media (max-width: 600px) { nav a { margin-left: 10px; 
+        font-size: 0.9em;
+      }
+      main h2 { font-size: 1.8em;
+      }
+    }
+  </style> </head> <body> <header> <h1>Meu Site</h1> <nav> <a 
+      href="#">Início</a> <a href="#">Sobre</a> <a 
+      href="#">Contato</a>
+    </nav> </header> <main> <h2>Bem-vindo ao meu site moderno 
+    🌐</h2> <p>
+      Este é um exemplo de página criada com HTML e CSS puro, 
+      hospedada gratuitamente no GitHub Pages. Explore, aprenda 
+      e personalize do seu jeito!
+    </p> <a href="#" class="btn">Saiba Mais</a> </main> <footer> 
+    <p>© 2025 Meu Site. Desenvolvido com ❤️ por hense95.</p>
+  </footer> </body>
 </html>
 +
 +
