@@ -1,0 +1,2 @@
+// Você pode adicionar interações aqui futuramente
+console.log("Site carregado com sucesso!");
